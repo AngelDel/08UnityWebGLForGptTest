@@ -65,5 +65,5 @@ http.createServer((req, res) => {
     });
 }).listen(port, () => {
     console.log(`Server is running on port ${port}`);
-    console.log('Go to http://localhost:' + port) 
+    console.log('To see, go to http://localhost:' + port) 
 });
