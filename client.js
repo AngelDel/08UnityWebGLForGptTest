@@ -6,7 +6,7 @@ const path = require('path');
 const port = process.env.PORT || 4000;
 
 http.createServer((req, res) => {
-    console.log('Server-side script loaded.');
+    console.log('Client-side script loaded.');
 
     // Set CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*'); // Allow all origins
