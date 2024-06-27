@@ -2,7 +2,8 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const port = 3000;
+// Define the port for the server to listen on
+const port = process.env.PORT || 4000;
 
 http.createServer((req, res) => {
     console.log('Server-side script loaded.');
